@@ -142,6 +142,10 @@ int dayu_prostie_chisla_serv (int a)
 
 int razloju_na_prostie_5 (int a)
 {
+    if (a < 0)
+    {
+        return 0;   //coming soon
+    }
     int mem = a, ostatok = 0, i = 1;
     int delt = 2;
     std :: cout << "The " << a << " is ";
